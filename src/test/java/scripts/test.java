@@ -8,10 +8,12 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class test {
 	public static void main(String args[]) throws InterruptedException {
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new EdgeDriver();
+//		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://testautomationpractice.blogspot.com/");
 		
