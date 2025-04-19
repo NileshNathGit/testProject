@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dependent]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="dependencies(failed)">
+    <classes>
+      <class name="day7.Testngdependencies">
+        <methods>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="at"/>
+          <include name="test"/>
+          <include name="bc"/>
+          <include name="bs"/>
+          <include name="test1"/>
+          <include name="ac"/>
+          <include name="bt"/>
+          <include name="as"/>
+        </methods>
+      </class> <!-- day7.Testngdependencies -->
+    </classes>
+  </test> <!-- dependencies(failed) -->
+</suite> <!-- Failed suite [Dependent] -->
