@@ -1,7 +1,12 @@
 package day4;
 
+import java.lang.reflect.Array;
 import java.time.Duration;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -40,8 +45,7 @@ public class dynamicTable {
 			}
 			System.out.println();
 		}
-		
-		
+	
 	}
 
 }
