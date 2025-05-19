@@ -66,7 +66,7 @@ public  class pageObjects {
 	@FindBy(xpath="//div/form[@id='multipleFilesForm']/input")
 	WebElement multiUp;
 	
-	
+	//Constructor
 	public pageObjects(WebDriver driver)
 	{
 		this.driver = driver;
