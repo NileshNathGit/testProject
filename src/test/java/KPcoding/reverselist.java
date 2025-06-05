@@ -12,13 +12,17 @@ public class reverselist {
 		String arr[] = str.split(" ");
 		
 		List<String> list = new ArrayList<>(Arrays.asList(arr));
+		                                                                                   
 		for(int i = list.size()-1; i>=0;i--)
-		{
-			System.out.println(list.get(i));
-		}
-		for(String l : list) {
-			System.out.print(l);
-		}
+		  
+				{
+					System.out.println(list.get(i));
+				}
+			
+		for(String l : list) 
+				{  
+					System.out.print(l);  
+				}  
 		
 	}
 
